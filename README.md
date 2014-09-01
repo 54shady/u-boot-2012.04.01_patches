@@ -21,3 +21,9 @@ usage example:
 	mini2440# erase 80000 8ffff
 	mini2440# cp.b 30000000 80000 10000
 	mini2440# cmp.b 30000000 80000 10000
+
+nand flash support
+usage example:
+	mini2440# loady 30000000
+	mini2440# nand erase 0 40000
+	mini2440# nand write 30000000 0 40000
